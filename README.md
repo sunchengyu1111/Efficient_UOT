@@ -30,7 +30,7 @@ $ cd src && make
 
 ## Running
 * Every executable file has a corresponding .sh file with the same name.
-For example, you can measure GPU platform performance improvements with SH_UOT_CPU_new_performance.sh.
+For example, you can measure GPU platform performance improvements with SH_UOT_GPU_new_performance.sh.
 ```bash
 $ sh SH_UOT_GPU_new_performance.sh
 ```
