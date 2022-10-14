@@ -14,13 +14,13 @@ $ cd src && make
 ```
 
 ## Hardware platform
-12th Gen Intel Core i9-12900K|----------------------|------------------|-------------|
+12th Gen Intel Core i9-12900K|\                     |\                 |\            |
 -----------------------------|----------------------|------------------|-------------|
 Number of Cores              | 16                   | Frequency        | 3.1 GHz     |    
 Peak Performance             | 793.6 GFLOPS (FP32)  | Memory Bandwidth | 76.8 GB/s   |    
 OS kernel                    | Linux 5.15           | Compiler         | GCC 9.4.0   |
 
-NVIDIA GeForce RTX 3090 Ti |-----------------|-------------------|-------------------|
+NVIDIA GeForce RTX 3090 Ti |\                |\                  |\                  |
 ---------------------------|-----------------|-------------------|-------------------|
 GPU Boost Clock            | 1.86 GHz        |  Peak Performance | 40 TFLOPS (FP32)  |
 Memory                     | 384-bit GDDR6X  |  Memory Capacity  | 24 GB             |
