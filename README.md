@@ -15,7 +15,7 @@ $ cd src && make
 
 ## Hardware platform
 12th Gen Intel Core i9-12900K|----------------------|------------------|-------------|
------------------|-----------|----------------------|------------------|-------------|
+-----------------------------|----------------------|------------------|-------------|
 Number of Cores              | 16                   | Frequency        | 3.1 GHz     |    
 Peak Performance             | 793.6 GFLOPS (FP32)  | Memory Bandwidth | 76.8 GB/s   |    
 OS kernel                    | Linux 5.15           | Compiler         | GCC 9.4.0   |
