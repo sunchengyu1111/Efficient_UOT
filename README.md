@@ -19,7 +19,7 @@ $ cd src && make
 Number of Cores              | 16                   | Frequency        | 3.1 GHz     |    
 Peak Performance             | 793.6 GFLOPS (FP32)  | Memory Bandwidth | 76.8 GB/s   |    
 OS kernel                    | Linux 5.15           | Compiler         | GCC 9.4.0   |
----------------------------|-----------------|-------------------|-------------------|
+
 NVIDIA GeForce RTX 3090 Ti |-----------------|-------------------|-------------------|
 ---------------------------|-----------------|-------------------|-------------------|
 GPU Boost Clock            | 1.86 GHz        |  Peak Performance | 40 TFLOPS (FP32)  |
