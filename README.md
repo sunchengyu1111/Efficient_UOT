@@ -7,12 +7,6 @@ Unbalanced optimal transport (UOT) has been widely used as a key algorithm in ma
 * [NVCC](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html)
 * [POSIX Threads](https://en.wikipedia.org/wiki/Pthreads)
 
-## Compile and install
-Our makefile is based on [GNU Compiler (GCC)](https://gcc.gnu.org/) and can be compiled by the following command.
-```bash
-$ cd src && make
-```
-
 ## Hardware platform
 12th Gen Intel Core i9-12900K|\                     |\                 |\            |
 -----------------------------|----------------------|------------------|-------------|
@@ -27,6 +21,12 @@ Memory                     | 384-bit GDDR6X  |  Memory Capacity  | 24 GB        
 Memory Clock               | 1.313 GHz       |  Memory Bandwidth | 1008 GB/s         |
 CUDA Cores                 | 10752           |  CUDA Version     | 11.4              |
 NVIDIA GPU Driver          | 515.65          |  Compiler         | NVCC V11.4.48     |
+
+## Compile and install
+Our makefile is based on [GNU Compiler (GCC)](https://gcc.gnu.org/) and can be compiled by the following command.
+```bash
+$ cd src && make
+```
 
 ## Running
 * Every executable file has a corresponding .sh file with the same name.
