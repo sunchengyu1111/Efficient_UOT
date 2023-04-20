@@ -55,7 +55,7 @@ void UOT_GPUMAP(float *uot_0, float *distri_row_0, float *distri_col_0, float *s
                 //printf("error_0 = %f.\n", error_0);               
                 //printMV(uot_0, distri_row_0, distri_col_0, sum_row0_0, sum_col0_0, sum_col0_1, error_0, m, n);
         }
-        printf("%f, ", time / count_0);
+        printf("%f, ", time * 1000 / count_0);
 }
 
 __global__ void modify_row_factor(float *distri_row, float *sum_row, float fi) {
