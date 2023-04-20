@@ -1,4 +1,4 @@
-# EfficientUOT
+# MAP-UOT
 ## Background
 Unbalanced optimal transport (UOT) has been widely used as a key algorithm in many application domains, where it often dominates the application running time. It is becoming a tool in a wider range of application domains utilizing machine learning (ML), such as computational biology, computational imaging, neuroimaging, natural language processing, domain adaptation, supervised learning, etc. We optimize UOT according to its memory-bound characteristics by interweaving the row rescaling and column rescaling that were originally performed independently to substantially reduce the memory access.
 
@@ -6,6 +6,7 @@ Unbalanced optimal transport (UOT) has been widely used as a key algorithm in ma
 * [GNU Compiler (GCC)](https://gcc.gnu.org/)
 * [NVCC](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html)
 * [POSIX Threads](https://en.wikipedia.org/wiki/Pthreads)
+* [CMake >= 3.9](https://cmake.org/)
 
 ## Hardware platform
 12th Gen Intel Core i9-12900K|\                     |\                 |\            |
@@ -23,9 +24,12 @@ CUDA Cores                 | 10752           |  CUDA Version     | 11.4         
 NVIDIA GPU Driver          | 515.65          |  Compiler         | NVCC V11.4.48     |
 
 ## Compile and install
-Our makefile is based on [GNU Compiler (GCC)](https://gcc.gnu.org/) and can be compiled by the following command.
+The program can be compiled by the following command.
 ```bash
-$ cd src && make
+$ mkdir build
+$ cd build
+$ cmake ../src
+$ make
 ```
 
 ## Running
