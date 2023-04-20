@@ -23,6 +23,12 @@ Memory Clock               | 1.313 GHz       |  Memory Bandwidth | 1008 GB/s    
 CUDA Cores                 | 10752           |  CUDA Version     | 11.4              |
 NVIDIA GPU Driver          | 515.65          |  Compiler         | NVCC V11.4.48     |
 
+Tianhe-1 supercomputer     |\                |\                  |\                  |
+---------------------------|-----------------|-------------------|-------------------|
+CPU                        | Intel Xeon Westmere    |  Cores per Node    | 12        |
+Max Frequency              | 2.93 GHz               |  Memory Capacity   | 32 GB     |
+Interconnect Network       | Infiniband QDR         |  Network Bandwidth | 160 Gb/s  |
+
 ## Compile and install
 The program can be compiled by the following command.
 ```bash
@@ -34,11 +40,12 @@ $ make
 
 ## Running
 * Every executable file has a corresponding .sh file with the same name.
-For example, you can measure GPU platform performance improvements with SH_UOT_GPU_new_performance.sh.
+For example, you can measure GPU platform performance improvements with MAP-UOT_GPU.sh.
 ```bash
-$ sh SH_UOT_GPU_new_performance.sh
+$ cd scripts
+$ sh MAP-UOT_GPU.sh
 ```
 
 ## Result
 When finishing executing, you can find running time results in .log file with the same name.
-For example, SH_UOT_GPU_new_performance.log.
+For example, MAP-UOT_GPU.log.
