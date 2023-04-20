@@ -1,1 +1,1 @@
-Codes and scripts for EfficientUOT.
+Source codes for MAP-UOT.
